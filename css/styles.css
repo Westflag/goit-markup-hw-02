@@ -1,0 +1,85 @@
+:root {
+  --color-primary-brand: #4d5ae5; /* IRIS */
+  --color-pressed-state: #404bff; /* OCEAN */
+  --color-dark: #2e2f42; /* NAVY BLUE */
+  --color-success: #31d0aa; /* GREEN */
+  --color-text: #434455; /* SLATE */
+  --color-subtle-text: #8e8f99; /* LIGHT SLATE */
+  --color-accent: #e7e9fc; /* CORNFLOWER */
+  --color-light: #f4f4fd; /* CLOUD */
+  --color-modal-overlay: #662e2f42; /* NAVY BLUE MODAL */
+  --color-hero-background: #2e2f42; /* GREY */
+  --color-white-background: #ffffff; /* WHITE */
+  --color-modal-background: #fcfcfc; /* DAIRY */
+}
+
+/* Title/Header 1 */
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+
+/* Header 2 */
+.header2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+
+/* Header 3 */
+.header3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+
+/* Body */
+.body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+}
+
+/* small */
+.small {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 2%;
+  line-height: 14px;
+}
+
+/* Body Medium */
+.body-medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+}
+
+/* ButtonText */
+.button-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 4%;
+  line-height: 24px;
+}
+
+/* Link */
+.link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 2%;
+  line-height: 16px;
+  text-decoration: underline;
+}
