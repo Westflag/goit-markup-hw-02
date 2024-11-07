@@ -1,6 +1,6 @@
 :root {
   --color-primary-brand: #4d5ae5; /* IRIS */
-  --color-pressed-state: #404bff; /* OCEAN */
+  --color-pressed-state: #404bbf; /* OCEAN */
   --color-dark: #2e2f42; /* NAVY BLUE */
   --color-success: #31d0aa; /* GREEN */
   --color-text: #434455; /* SLATE */
@@ -76,6 +76,7 @@ body {
 
 .team-item {
   background-color: var(--color-white-background);
+  text-align: center;
 }
 
 .project-item {
@@ -100,6 +101,7 @@ body {
   font-weight: bold;
   font-size: 56px;
   letter-spacing: 0.02em;
+  text-align: center;
   line-height: 1.07;
   color: var(--color-white-background);
 }
@@ -111,7 +113,7 @@ body {
   font-size: 36px;
   text-align: center;
   line-height: 1.11;
-   text-transform: capitalize;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--color-dark);
 }
@@ -122,7 +124,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-   text-transform: capitalize;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--color-dark);
 }
