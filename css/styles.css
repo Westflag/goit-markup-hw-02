@@ -44,25 +44,25 @@ body {
 }
 
 .nav-link a {
-  color: var(--color-dark);
+  color: var(--color-pressed-state);
   text-decoration: none;
 }
 
 .nav-link a:hover {
-  color: var(--color-primary-brand);
+  color: var(--color-pressed-state);
 }
 
 .contact-link a {
-  color: var(--color-dark);
+  color: var(--color-text);
   text-decoration: none;
 }
 
 .contact-link a:hover {
-  color: var(--color-primary-brand);
+  color: var(--color-pressed-state);
 }
 
 .nav-link a:active {
-  color: var(--color-primary-brand);
+  color: var(--color-pressed-state);
   text-decoration: underline;
 }
 
