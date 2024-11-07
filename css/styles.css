@@ -13,6 +13,27 @@
   --color-modal-background: #fcfcfc; /* DAIRY */
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-white-background);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-primary-brand);
+}
+
+.logo-dark {
+  color: var(--color-dark);
+}
+
 /* Title/Header 1 */
 .title {
   font-family: 'Roboto', sans-serif;
