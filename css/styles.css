@@ -19,12 +19,17 @@ body {
   background-color: var(--color-white-background);
 }
 
+.footer { 
+  background-color: var(--color-dark); 
+  color: var(--color-light)
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--color-primary-brand);
@@ -34,13 +39,69 @@ body {
   color: var(--color-dark);
 }
 
+.logo-light {
+  color: var(--color-light);
+}
+
+.nav-link a {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.nav-link a:hover {
+  color: var(--color-primary-brand);
+}
+
+.contact-link a {
+  color: var(--color-dark);
+  text-decoration: none;
+}
+
+.contact-link a:hover {
+  color: var(--color-primary-brand);
+}
+
+.nav-link a:active {
+  color: var(--color-primary-brand);
+  text-decoration: underline;
+}
+
+.section-title {
+  background-color: var(--color-dark);
+}
+
+.section-team {
+  background-color: var(--color-light);
+}
+
+.team-item {
+  background-color: var(--color-white-background);
+}
+
+.project-item {
+   background-color: var(--color-white-background);
+}
+
+.button {
+  color: var(--color-white-background);
+  background-color: var(--color-primary-brand);
+}
+
+.button:hover {
+  background-color: var(--color-pressed-state);
+}
+
+.button:active {
+  background-color: var(--color-pressed-state);
+}
 /* Title/Header 1 */
 .title {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  color: var(--color-white-background);
 }
 
 /* Header 2 */
@@ -48,7 +109,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
 }
 
 /* Header 3 */
@@ -56,7 +118,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
 }
 
 /* Body */
@@ -64,8 +127,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 16px;
-  letter-spacing: 2%;
-  line-height: 24px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /* small */
@@ -73,8 +136,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 12px;
-  letter-spacing: 2%;
-  line-height: 14px;
+  letter-spacing: 0.02em;
+  line-height: 1.17;
 }
 
 /* Body Medium */
@@ -82,8 +145,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 2%;
-  line-height: 24px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 /* ButtonText */
@@ -91,8 +154,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: 4%;
-  line-height: 24px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
 }
 
 /* Link */
@@ -100,7 +163,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 12px;
-  letter-spacing: 2%;
-  line-height: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.33;
   text-decoration: underline;
 }
