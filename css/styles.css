@@ -19,9 +19,9 @@ body {
   background-color: var(--color-white-background);
 }
 
-.footer { 
-  background-color: var(--color-dark); 
-  color: var(--color-light)
+.footer {
+  background-color: var(--color-dark);
+  color: var(--color-light);
 }
 
 .logo {
@@ -79,7 +79,7 @@ body {
 }
 
 .project-item {
-   background-color: var(--color-white-background);
+  background-color: var(--color-white-background);
 }
 
 .button {
@@ -109,6 +109,9 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 36px;
+  text-align: center;
+  line-height: 1.11;
+   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--color-dark);
 }
@@ -118,6 +121,8 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: var(--color-dark);
 }
